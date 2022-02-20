@@ -34,4 +34,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: intezer/edr-connect:latest, intezer/edr-connect:${git_hash}
+          tags: intezer/edr-connect:latest, intezer/edr-connect:${{ git_hash }}
